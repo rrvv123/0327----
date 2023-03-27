@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" method="get">
+        <table>
+                <h1>글 작성하기</h1>
+            <tr>
+                <th><label for="username">작성자</label></th>
+                <td><input type="text" name="username" id="username"></td>
+            </tr>
+            <tr>
+                <th><label for="id">아이디</label></th>
+                <td><input type="text" name="id" id="id"></td>
+            </tr>
+            <tr>
+                <th><label for="email">이메일</label></th>
+                <td><input type="text" name="email" id="email">@
+                    <select>
+                        <option value="email">gmail.com</option>
+                        <option value="email">naver.com</option>
+                        <option value="email">daum.net</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>휴대폰</b></td>
+                <td>   
+                    <select>
+                        <option value="tel">010</option>
+                        <option value="tel">011</option>
+                        <option value="tel">013</option>        
+                    </select>-
+                    <input type="tel">-
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="header">글제목</label></th>
+                <td><input type="text" name="header" id="header"></td>
+            </tr>
+            <tr>
+                <td align="center"><b>내용</b></td>
+                <td>
+                    <textarea name="content" cols="30" rows="10"></textarea><br>
+                    <button type="submit">제출</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
